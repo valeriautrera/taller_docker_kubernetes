@@ -1,5 +1,7 @@
 Instrucciones:
 
+Desde la carpeta `ejercicio1` correr los siguientes comandos:
+
 Buildear imagen:
 ```shell
 docker build -t vutrera-nginx .
