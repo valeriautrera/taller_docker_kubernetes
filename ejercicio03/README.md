@@ -4,7 +4,8 @@ docker inspect nicopaez/passwordapi-java:java8-alpine | jq .[].RootFS.Layers
 docker inspect nicopaez/passwordapi-java:java8-fabric | jq .[].RootFS.Layers
 ```
 
-La imagen `nicopaez/passwordapi-java:java8-alpine` tiene 4 layers 
+La imagen `nicopaez/passwordapi-java:java8-alpine` tiene 4 layers
+
 La imagen `nicopaez/passwordapi-java:java8-fabric` tiene 9 layers
 
 Para ver si tienen layers en común se corrió el comando:
