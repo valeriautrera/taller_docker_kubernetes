@@ -1,15 +1,8 @@
 Instrucciones:
 
-Desde la carpeta `ejercicio1` correr los siguientes comandos:
-
-Buildear imagen:
+Desde la carpeta `ejercicio1` correr el comando:
 ```shell
-docker build -t vutrera-nginx .
-```
-
-Correr contenedor:
-```shell
-docker run --name vutrera-ej1-nginx -d -p 8080:80 vutrera-nginx
+docker run --name vutrera-ej1-nginx -v $PWD/html:/usr/share/nginx/html:ro -d -p 8080:80 nginx
 ```
 
 Acceder a la url:
